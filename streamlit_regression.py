@@ -44,8 +44,7 @@ input_data = pd.DataFrame({
     'Balance' : [balance],
     'NumOfProducts': [num_of_products],
     'HasCrCard' : [has_cr_card],
-    'IsActiveMember' : [is_active_member],
-    'EstimatedSalary' : [estimated_salary]
+    'IsActiveMember' : [is_active_member]
 })
 
 # One - hot encode 'Geography'
