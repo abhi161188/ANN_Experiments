@@ -38,12 +38,12 @@ input_data = pd.DataFrame({
     'CreditScore' : [credit_score],
     'Gender' : [label_encoder_gender.transform([gender])[0]] ,
     'Age' : [age],
-    'Exited': [exited],
     'Tenure' : [tenure],
     'Balance' : [balance],
     'NumOfProducts': [num_of_products],
     'HasCrCard' : [has_cr_card],
-    'IsActiveMember' : [is_active_member]
+    'IsActiveMember' : [is_active_member],
+    'Exited': [exited]
 })
 
 # One - hot encode 'Geography'
