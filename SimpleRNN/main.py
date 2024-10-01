@@ -39,6 +39,7 @@ import streamlit as st
 ## Streamlit app
 st.title('IMDB Movie Review Sentiment Analysis')
 st.write('Enter a movie review to classify it as positive or negative.')
+t.write('Example of review "This movie was fantastic! The acting was great and the plot was thrilling."')
 
 # User input
 user_input = st.text_area('Movie Review')
